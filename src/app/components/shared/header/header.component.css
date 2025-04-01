@@ -1,0 +1,47 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #4B0082; /* Cambia este color al del mockup */
+  border-bottom: 2px solid #ddd; /* Ajusta o elimina según el diseño */
+  color: #FFF; /* Asegúrate de que el texto sea visible en fondo oscuro */
+}
+  
+  .logo img {
+    height: 80px; /* Ajusta la altura según lo necesario */
+    width: auto;  /* Mantén las proporciones */
+  }
+  
+  .nav-bar {
+    background-color: #4B0082; /* Cambia este color al del fondo deseado */
+    padding: 0; /* Agrega algo de espacio interno */
+    border-radius: 8px; /* Bordes redondeados opcionales */
+  }
+  
+  .nav-bar ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-bar li {
+    margin: 0 5px; /* Espaciado entre los elementos del menú */
+  }
+  
+  .nav-bar a {
+    text-decoration: none; /* Quita subrayado de los enlaces */
+    color: #FFF; /* Cambia al color de texto del menú */
+    font-weight: bold;
+    font-family: small-caps 100%/200% serif;
+    font-size: 20px; /* Ajusta el tamaño de fuente */
+    padding: 5px 10px; /* Espaciado interno alrededor del texto */
+    transition: all 0.3s ease; /* Suaviza el cambio de colores */
+  }
+  
+  .nav-bar a:hover {
+    color: #FF6347; /* Cambia al color del texto al pasar el mouse */
+    background-color: #F0F8FF; /* Opcional: color de fondo al pasar el mouse */
+    border-radius: 5px; /* Bordes redondeados al hacer hover */
+  }

@@ -1,0 +1,37 @@
+.footer {
+  display: flex; /* Divide el espacio en columnas */
+  justify-content: space-between; /* Espaciado uniforme entre columnas */
+  background-color: #f8f9fa; /* Fondo claro */
+  padding: 20px;
+  border-top: 2px solid #ddd;
+  font-family: small-caps 100%/200% serif; /* Tipografía personalizada */
+  font-size: 18px; /* Tamaño de fuente */
+}
+
+.footer-column {
+  flex: 1; /* Cada columna ocupa el mismo espacio */
+  margin: 0 10px; /* Espaciado entre columnas */
+}
+
+.footer-column h4 {
+  font-size: 20px;
+  color: #333;
+}
+
+.footer-column ul {
+  list-style: none; /* Elimina los puntos de la lista */
+  padding: 0;
+}
+
+.footer-column li {
+  margin-bottom: 10px; /* Espaciado entre elementos de la lista */
+}
+
+.footer-column a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.footer-column a:hover {
+  text-decoration: underline;
+}
