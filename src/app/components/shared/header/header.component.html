@@ -1,13 +1,19 @@
 <header class="header">
   <div class="logo">
-    <img src="assets/images/Logo_MundoPet.png" alt="Logo Mundo Pet" />
+    <img src="assets/images/Logo_MundoPet.png" alt="Logo Mundo Pet"/>
   </div>
   <nav class="nav-bar">
     <ul>
       <li><a routerLink="/products">Productos</a></li>
       <li><a routerLink="/services">Servicios</a></li>
       <li><a routerLink="/contact">Contáctanos</a></li>
-      <li><a routerLink="/login">Iniciar Sesión</a></li>
+      @if (!usuario) {
+        <!-- Si no hay usuario, mostrar el enlace de Iniciar Sesión -->
+        <li><a routerLink="/login">Iniciar Sesión</a></li>
+      } @else {
+        <!-- Si hay usuario, mostrar el nombre -->
+        <li>Hola, {{ usuario }}</li>
+      }
     </ul>
   </nav>
 </header>
