@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 15px 30px;
-  background-color: #4B0082; /* Cambia este color al del mockup */
+  background-color: #603E85; /* Cambia este color al del mockup */
   border-bottom: 2px solid #ddd; /* Ajusta o elimina según el diseño */
   color: #FFF; /* Asegúrate de que el texto sea visible en fondo oscuro */
 }
@@ -14,7 +14,7 @@
   }
   
   .nav-bar {
-    background-color: #4B0082; /* Cambia este color al del fondo deseado */
+    background-color: #603E85; /* Cambia este color al del fondo deseado */
     padding: 0; /* Agrega algo de espacio interno */
     border-radius: 8px; /* Bordes redondeados opcionales */
   }

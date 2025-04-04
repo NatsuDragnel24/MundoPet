@@ -1,11 +1,16 @@
 .footer {
   display: flex; /* Divide el espacio en columnas */
   justify-content: space-between; /* Espaciado uniforme entre columnas */
-  background-color: #f8f9fa; /* Fondo claro */
+  background-color: #603E85; /* Fondo claro */
   padding: 20px;
   border-top: 2px solid #ddd;
   font-family: small-caps 100%/200% serif; /* Tipografía personalizada */
   font-size: 18px; /* Tamaño de fuente */
+}
+
+.logo img {
+  height: 180px; /* Ajusta la altura según lo necesario */
+  width: auto;  /* Mantén las proporciones */
 }
 
 .footer-column {
@@ -15,7 +20,7 @@
 
 .footer-column h4 {
   font-size: 20px;
-  color: #333;
+  color: #fff;
 }
 
 .footer-column ul {
@@ -25,11 +30,13 @@
 
 .footer-column li {
   margin-bottom: 10px; /* Espaciado entre elementos de la lista */
+  color: #fff;
 }
 
 .footer-column a {
   text-decoration: none;
-  color: #007bff;
+  color: #fff;
+  font-weight: bold; /* Negrita */
 }
 
 .footer-column a:hover {
