@@ -1,17 +1,17 @@
 import {Component} from '@angular/core';
 import {FormBuilder, FormGroup, ReactiveFormsModule, Validators} from '@angular/forms';
-import {Router} from '@angular/router';
+import {Router, RouterModule} from '@angular/router';
 import {Injectable, PLATFORM_ID, Inject} from '@angular/core';
 import {isPlatformBrowser} from '@angular/common';
 
 @Component({
   selector: 'app-auth',
   imports: [
-    ReactiveFormsModule
+    ReactiveFormsModule,RouterModule
   ],
   templateUrl: './auth.component.html',
   standalone: true,
-  styleUrl: './auth.component.css'
+  styleUrl: './auth.component.css',
 })
 export class AuthComponent {
   loginForm: FormGroup;
