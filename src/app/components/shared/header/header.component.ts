@@ -23,7 +23,7 @@ export class HeaderComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    // Obtener el usuario almacenado en localStorage (si existe)
+    
     if (isPlatformBrowser(this.platformId)) {
       this.usuario = localStorage.getItem('usuario');
     }

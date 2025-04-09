@@ -12,7 +12,7 @@ export class AdminPanelComponent {
   constructor(private router:Router){}
 
   logout() {
-    // Aquí puedes limpiar datos del localStorage o sessionStorage si usas autenticación
+    // limpiar datos del localStorage o sessionStorage si usas autenticación
     localStorage.clear();
     sessionStorage.clear();
   

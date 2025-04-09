@@ -9,10 +9,10 @@
       <li><a routerLink="/service">Servicios</a></li>
       <li><a routerLink="/contact">Contáctanos</a></li>
       @if (!usuario) {
-        <!-- Si no hay usuario, mostrar el enlace de Iniciar Sesión -->
+        
         <li><a routerLink="/login">Iniciar Sesión</a></li>
       } @else {
-        <!-- Si hay usuario, mostrar el nombre -->
+        
         <li>Hola, {{ usuario }}</li>
       }
     </ul>

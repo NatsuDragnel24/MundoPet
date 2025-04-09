@@ -8,7 +8,7 @@ import {isPlatformBrowser} from '@angular/common';
   imports: [
     RouterOutlet,
   ],
-  standalone: true, // Marca este componente como independiente
+  standalone: true, 
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

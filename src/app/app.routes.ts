@@ -17,8 +17,8 @@ export const routes: Routes = [
   {path: 'product', component: ProductComponent}, // Ruta para la página de producto
   {path: 'register', component:RegisterComponent}, // Ruta para la página de registro
   {path: 'admin-panel',component: AdminPanelComponent}, // Ruta para el panel de administración
-  {path: 'auth/login', component: AuthComponent },
-  { path: 'admin/dashboard', component: AdminPanelComponent }
+  {path: 'auth/login', component: AuthComponent },//ruta para el login
+  
 
 ];
 
