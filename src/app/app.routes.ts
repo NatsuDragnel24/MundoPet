@@ -16,5 +16,9 @@ export const routes: Routes = [
   {path: 'service', component: ServiceComponent}, // Ruta para la página de servicio
   {path: 'product', component: ProductComponent}, // Ruta para la página de producto
   {path: 'register', component:RegisterComponent}, // Ruta para la página de registro
-  {path: 'admin-panel',component: AdminPanelComponent}  // Ruta para el panel de administración
+  {path: 'admin-panel',component: AdminPanelComponent}, // Ruta para el panel de administración
+  {path: 'auth/login', component: AuthComponent },
+  { path: 'admin/dashboard', component: AdminPanelComponent }
+
 ];
+

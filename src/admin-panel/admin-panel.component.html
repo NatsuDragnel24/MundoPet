@@ -8,12 +8,15 @@
       <li><a routerLink="/admin/productos" routerLinkActive="active">Productos</a></li>
       <li><a routerLink="/admin/usuarios" routerLinkActive="active">Usuarios</a></li>
       <li><a routerLink="/admin/configuracion" routerLinkActive="active">Configuración</a></li>
+      <li><a (click)="logout()" style="cursor: pointer;">Cerrar sesión</a></li>
+
+
+      
      
     </ul>
   </nav>
   </header>
   <body>
-
 <!-- Carrusel Principal -->
 <div id="CarruselPrincipal" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000" data-bs-wrap="true">
   <div class="carousel-indicators">
@@ -73,7 +76,7 @@
       
       <div class="col-md-3">
         <div class="producto-card">
-          <h3 class="producto-nombre">Juguestes</h3>
+          <h3 class="producto-nombre">Juguetes</h3>
           <img src="assets/images/Inicio_Juguetes.png" alt="Juguestes" class="producto-imagen">
         </div>
       </div>
@@ -88,36 +91,6 @@
   </div>
 </section>
 
-
-<section class="servicio-spa">
-  <div class="container">
-    <h2 class="servicios-titulo-principal">Nuestros Servicios Destacados</h2>
-    <div class="row">
-
-      <div class="col-md-12">
-        <div class="servicio-card">
-          <div class="row">
-            <div class="col-md-6">
-              <img src="assets/images/Spa_Mascotas.jpg" alt="Spa para Mascotas" class="servicio-imagen">
-            </div>
-            <div class="col-md-6">
-              <span class="servicio-nombre">Spa para tus Mascotas</span>
-              <br>
-              <p class="servicio-descripcion">
-                Dale a tu peludo una experiencia única de relajación y cuidado. 
-                <br>
-                Nuestro spa ofrece tratamientos especiales para el bienestar de tu mascota, 
-                  desde baños relajantes hasta masajes terapéuticos. 
-                  ¡Tu mascota se lo merece!
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      
-    </div>
-  </div>
   <div class="dashboard">
     <h2>Resumen del Panel Administrativo</h2>
   
@@ -142,13 +115,8 @@
         <p>Pedidos pendientes</p>
       </div>
     </div>
-  
-    <div class="chart-section">
-      <h3>Ventas por semana</h3>
-      <canvas id="ventasChart"></canvas>
-    </div>
   </div>
   
-</section>
+
   
 </body>
