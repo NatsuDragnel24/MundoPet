@@ -1,6 +1,0 @@
-[build]
-  command = "npm run build"
-  publish = "dist/mundo-pet/browser"
-
-[[plugins]]
-  package = "@netlify/angular-runtime"
