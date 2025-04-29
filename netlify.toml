@@ -1,6 +1,9 @@
 [build]
-  command = "ng build --prod"
+  command = "npm run build"
   publish = "dist/mundo-pet/browser"
 
 [[plugins]]
   package = "@netlify/angular-runtime"
+git add .
+git commit -m "fix: configuración Netlify SSR para Angular 19"
+git push
